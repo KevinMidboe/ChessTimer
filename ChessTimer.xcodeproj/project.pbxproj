@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D81FF973189AC06C00214FD2 /* 66805786d5.png in Resources */ = {isa = PBXBuildFile; fileRef = D81FF972189AC06B00214FD2 /* 66805786d5.png */; };
+		D81FF975189AC1A800214FD2 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81FF974189AC1A800214FD2 /* Twitter.framework */; };
+		D844267A188071020028218E /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8442679188071020028218E /* SettingsViewController.m */; };
+		D8905B08187EAE0B00CE4B9C /* Grey Circle.png in Resources */ = {isa = PBXBuildFile; fileRef = D8905B00187EAE0B00CE4B9C /* Grey Circle.png */; };
+		D8905B0A187EAE0B00CE4B9C /* PauseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D8905B02187EAE0B00CE4B9C /* PauseButton.png */; };
+		D8905B0B187EAE0B00CE4B9C /* PlayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D8905B03187EAE0B00CE4B9C /* PlayButton.png */; };
+		D8905B0C187EAE0B00CE4B9C /* ResetIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D8905B04187EAE0B00CE4B9C /* ResetIcon.png */; };
+		D8905B0E187EAE0B00CE4B9C /* SettingsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D8905B06187EAE0B00CE4B9C /* SettingsIcon.png */; };
+		D8905B0F187EAE0B00CE4B9C /* SettingsThinIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D8905B07187EAE0B00CE4B9C /* SettingsThinIcon.png */; };
+		D8905B13187EAE7200CE4B9C /* turnOver.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D8905B12187EAE7200CE4B9C /* turnOver.aiff */; };
 		D8A190FE187EAA3A000E9BA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A190FD187EAA3A000E9BA5 /* Foundation.framework */; };
 		D8A19100187EAA3A000E9BA5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A190FF187EAA3A000E9BA5 /* CoreGraphics.framework */; };
 		D8A19102187EAA3A000E9BA5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A19101187EAA3A000E9BA5 /* UIKit.framework */; };
 		D8A19108187EAA3A000E9BA5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8A19106187EAA3A000E9BA5 /* InfoPlist.strings */; };
 		D8A1910A187EAA3A000E9BA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A19109187EAA3A000E9BA5 /* main.m */; };
 		D8A1910E187EAA3A000E9BA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A1910D187EAA3A000E9BA5 /* AppDelegate.m */; };
-		D8A19111187EAA3A000E9BA5 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8A1910F187EAA3A000E9BA5 /* Main_iPhone.storyboard */; };
 		D8A19114187EAA3A000E9BA5 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8A19112187EAA3A000E9BA5 /* Main_iPad.storyboard */; };
 		D8A19117187EAA3A000E9BA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A19116187EAA3A000E9BA5 /* ViewController.m */; };
 		D8A19119187EAA3A000E9BA5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8A19118187EAA3A000E9BA5 /* Images.xcassets */; };
@@ -22,6 +31,10 @@
 		D8A19122187EAA3A000E9BA5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A19101187EAA3A000E9BA5 /* UIKit.framework */; };
 		D8A1912A187EAA3A000E9BA5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8A19128187EAA3A000E9BA5 /* InfoPlist.strings */; };
 		D8A1912C187EAA3A000E9BA5 /* ChessTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A1912B187EAA3A000E9BA5 /* ChessTimerTests.m */; };
+		D8A1913A187EAAA6000E9BA5 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8A19138187EAAA6000E9BA5 /* Main_iPhone.storyboard */; };
+		D8A1914A187EAB42000E9BA5 /* Highscore1.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A19142187EAB42000E9BA5 /* Highscore1.png */; };
+		D8AC1ED5188562FD00FC428A /* dingSFX1.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D8AC1ED4188562FD00FC428A /* dingSFX1.aiff */; };
+		D8C7E4E41882000500F562FA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C7E4E31882000500F562FA /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D81FF972189AC06B00214FD2 /* 66805786d5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 66805786d5.png; path = ../../../../../Downloads/66805786d5.png; sourceTree = "<group>"; };
+		D81FF974189AC1A800214FD2 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		D8442678188071020028218E /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		D8442679188071020028218E /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		D8905B00187EAE0B00CE4B9C /* Grey Circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Grey Circle.png"; path = "Images/Grey Circle.png"; sourceTree = SOURCE_ROOT; };
+		D8905B02187EAE0B00CE4B9C /* PauseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PauseButton.png; path = Images/PauseButton.png; sourceTree = SOURCE_ROOT; };
+		D8905B03187EAE0B00CE4B9C /* PlayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PlayButton.png; path = Images/PlayButton.png; sourceTree = SOURCE_ROOT; };
+		D8905B04187EAE0B00CE4B9C /* ResetIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ResetIcon.png; path = Images/ResetIcon.png; sourceTree = SOURCE_ROOT; };
+		D8905B06187EAE0B00CE4B9C /* SettingsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SettingsIcon.png; path = Images/SettingsIcon.png; sourceTree = SOURCE_ROOT; };
+		D8905B07187EAE0B00CE4B9C /* SettingsThinIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SettingsThinIcon.png; path = Images/SettingsThinIcon.png; sourceTree = SOURCE_ROOT; };
+		D8905B12187EAE7200CE4B9C /* turnOver.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = turnOver.aiff; path = SoundFiles/turnOver.aiff; sourceTree = SOURCE_ROOT; };
 		D8A190FA187EAA3A000E9BA5 /* ChessTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChessTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8A190FD187EAA3A000E9BA5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D8A190FF187EAA3A000E9BA5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,7 +69,6 @@
 		D8A1910B187EAA3A000E9BA5 /* ChessTimer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChessTimer-Prefix.pch"; sourceTree = "<group>"; };
 		D8A1910C187EAA3A000E9BA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D8A1910D187EAA3A000E9BA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D8A19110187EAA3A000E9BA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		D8A19113187EAA3A000E9BA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		D8A19115187EAA3A000E9BA5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D8A19116187EAA3A000E9BA5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -55,6 +78,10 @@
 		D8A19127187EAA3A000E9BA5 /* ChessTimerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChessTimerTests-Info.plist"; sourceTree = "<group>"; };
 		D8A19129187EAA3A000E9BA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D8A1912B187EAA3A000E9BA5 /* ChessTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChessTimerTests.m; sourceTree = "<group>"; };
+		D8A19139187EAAA6000E9BA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = ../../mhl_AlertTimer/mhl_AlertTimer/en.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		D8A19142187EAB42000E9BA5 /* Highscore1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Highscore1.png; path = ../../mhl_AlertTimer/mhl_AlertTimer/Highscore1.png; sourceTree = "<group>"; };
+		D8AC1ED4188562FD00FC428A /* dingSFX1.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = dingSFX1.aiff; path = SoundFiles/dingSFX1.aiff; sourceTree = SOURCE_ROOT; };
+		D8C7E4E31882000500F562FA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +89,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D81FF975189AC1A800214FD2 /* Twitter.framework in Frameworks */,
+				D8C7E4E41882000500F562FA /* AudioToolbox.framework in Frameworks */,
 				D8A19100187EAA3A000E9BA5 /* CoreGraphics.framework in Frameworks */,
 				D8A19102187EAA3A000E9BA5 /* UIKit.framework in Frameworks */,
 				D8A190FE187EAA3A000E9BA5 /* Foundation.framework in Frameworks */,
@@ -103,6 +132,8 @@
 		D8A190FC187EAA3A000E9BA5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D81FF974189AC1A800214FD2 /* Twitter.framework */,
+				D8C7E4E31882000500F562FA /* AudioToolbox.framework */,
 				D8A190FD187EAA3A000E9BA5 /* Foundation.framework */,
 				D8A190FF187EAA3A000E9BA5 /* CoreGraphics.framework */,
 				D8A19101187EAA3A000E9BA5 /* UIKit.framework */,
@@ -116,10 +147,12 @@
 			children = (
 				D8A1910C187EAA3A000E9BA5 /* AppDelegate.h */,
 				D8A1910D187EAA3A000E9BA5 /* AppDelegate.m */,
-				D8A1910F187EAA3A000E9BA5 /* Main_iPhone.storyboard */,
+				D8A19138187EAAA6000E9BA5 /* Main_iPhone.storyboard */,
 				D8A19112187EAA3A000E9BA5 /* Main_iPad.storyboard */,
 				D8A19115187EAA3A000E9BA5 /* ViewController.h */,
 				D8A19116187EAA3A000E9BA5 /* ViewController.m */,
+				D8442678188071020028218E /* SettingsViewController.h */,
+				D8442679188071020028218E /* SettingsViewController.m */,
 				D8A19118187EAA3A000E9BA5 /* Images.xcassets */,
 				D8A19104187EAA3A000E9BA5 /* Supporting Files */,
 			);
@@ -129,6 +162,8 @@
 		D8A19104187EAA3A000E9BA5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D8A1914B187EAB47000E9BA5 /* Images */,
+				D8A1914E187EAB54000E9BA5 /* Sounds */,
 				D8A19105187EAA3A000E9BA5 /* ChessTimer-Info.plist */,
 				D8A19106187EAA3A000E9BA5 /* InfoPlist.strings */,
 				D8A19109187EAA3A000E9BA5 /* main.m */,
@@ -153,6 +188,30 @@
 				D8A19128187EAA3A000E9BA5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8A1914B187EAB47000E9BA5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D81FF972189AC06B00214FD2 /* 66805786d5.png */,
+				D8905B00187EAE0B00CE4B9C /* Grey Circle.png */,
+				D8905B03187EAE0B00CE4B9C /* PlayButton.png */,
+				D8905B02187EAE0B00CE4B9C /* PauseButton.png */,
+				D8905B04187EAE0B00CE4B9C /* ResetIcon.png */,
+				D8905B06187EAE0B00CE4B9C /* SettingsIcon.png */,
+				D8905B07187EAE0B00CE4B9C /* SettingsThinIcon.png */,
+				D8A19142187EAB42000E9BA5 /* Highscore1.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		D8A1914E187EAB54000E9BA5 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				D8905B12187EAE7200CE4B9C /* turnOver.aiff */,
+				D8AC1ED4188562FD00FC428A /* dingSFX1.aiff */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,10 +290,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8A1913A187EAAA6000E9BA5 /* Main_iPhone.storyboard in Resources */,
 				D8A19114187EAA3A000E9BA5 /* Main_iPad.storyboard in Resources */,
+				D8905B0E187EAE0B00CE4B9C /* SettingsIcon.png in Resources */,
 				D8A19119187EAA3A000E9BA5 /* Images.xcassets in Resources */,
-				D8A19111187EAA3A000E9BA5 /* Main_iPhone.storyboard in Resources */,
+				D8905B08187EAE0B00CE4B9C /* Grey Circle.png in Resources */,
 				D8A19108187EAA3A000E9BA5 /* InfoPlist.strings in Resources */,
+				D8905B13187EAE7200CE4B9C /* turnOver.aiff in Resources */,
+				D8A1914A187EAB42000E9BA5 /* Highscore1.png in Resources */,
+				D8905B0C187EAE0B00CE4B9C /* ResetIcon.png in Resources */,
+				D8905B0A187EAE0B00CE4B9C /* PauseButton.png in Resources */,
+				D81FF973189AC06C00214FD2 /* 66805786d5.png in Resources */,
+				D8905B0F187EAE0B00CE4B9C /* SettingsThinIcon.png in Resources */,
+				D8905B0B187EAE0B00CE4B9C /* PlayButton.png in Resources */,
+				D8AC1ED5188562FD00FC428A /* dingSFX1.aiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +324,7 @@
 			files = (
 				D8A19117187EAA3A000E9BA5 /* ViewController.m in Sources */,
 				D8A1910E187EAA3A000E9BA5 /* AppDelegate.m in Sources */,
+				D844267A188071020028218E /* SettingsViewController.m in Sources */,
 				D8A1910A187EAA3A000E9BA5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,14 +356,6 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		D8A1910F187EAA3A000E9BA5 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D8A19110187EAA3A000E9BA5 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
 		D8A19112187EAA3A000E9BA5 /* Main_iPad.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -308,6 +370,14 @@
 				D8A19129187EAA3A000E9BA5 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D8A19138187EAAA6000E9BA5 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8A19139187EAAA6000E9BA5 /* en */,
+			);
+			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -396,6 +466,7 @@
 				GCC_PREFIX_HEADER = "ChessTimer/ChessTimer-Prefix.pch";
 				INFOPLIST_FILE = "ChessTimer/ChessTimer-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -409,6 +480,7 @@
 				GCC_PREFIX_HEADER = "ChessTimer/ChessTimer-Prefix.pch";
 				INFOPLIST_FILE = "ChessTimer/ChessTimer-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -474,6 +546,7 @@
 				D8A19131187EAA3A000E9BA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8A19132187EAA3A000E9BA5 /* Build configuration list for PBXNativeTarget "ChessTimerTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +555,7 @@
 				D8A19134187EAA3A000E9BA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
