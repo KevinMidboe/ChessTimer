@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D81FF973189AC06C00214FD2 /* 66805786d5.png in Resources */ = {isa = PBXBuildFile; fileRef = D81FF972189AC06B00214FD2 /* 66805786d5.png */; };
 		D81FF975189AC1A800214FD2 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81FF974189AC1A800214FD2 /* Twitter.framework */; };
 		D844267A188071020028218E /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8442679188071020028218E /* SettingsViewController.m */; };
 		D8905B08187EAE0B00CE4B9C /* Grey Circle.png in Resources */ = {isa = PBXBuildFile; fileRef = D8905B00187EAE0B00CE4B9C /* Grey Circle.png */; };
@@ -48,7 +47,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D81FF972189AC06B00214FD2 /* 66805786d5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 66805786d5.png; path = ../../../../../Downloads/66805786d5.png; sourceTree = "<group>"; };
 		D81FF974189AC1A800214FD2 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		D8442678188071020028218E /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		D8442679188071020028218E /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
@@ -193,7 +191,6 @@
 		D8A1914B187EAB47000E9BA5 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				D81FF972189AC06B00214FD2 /* 66805786d5.png */,
 				D8905B00187EAE0B00CE4B9C /* Grey Circle.png */,
 				D8905B03187EAE0B00CE4B9C /* PlayButton.png */,
 				D8905B02187EAE0B00CE4B9C /* PauseButton.png */,
@@ -300,7 +297,6 @@
 				D8A1914A187EAB42000E9BA5 /* Highscore1.png in Resources */,
 				D8905B0C187EAE0B00CE4B9C /* ResetIcon.png in Resources */,
 				D8905B0A187EAE0B00CE4B9C /* PauseButton.png in Resources */,
-				D81FF973189AC06C00214FD2 /* 66805786d5.png in Resources */,
 				D8905B0F187EAE0B00CE4B9C /* SettingsThinIcon.png in Resources */,
 				D8905B0B187EAE0B00CE4B9C /* PlayButton.png in Resources */,
 				D8AC1ED5188562FD00FC428A /* dingSFX1.aiff in Resources */,

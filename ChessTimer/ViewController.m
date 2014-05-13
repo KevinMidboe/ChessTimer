@@ -256,7 +256,8 @@
 {
     lblTimerP1.transform = CGAffineTransformMakeRotation(-M_PI / 1);
     
-    defaultTime = 15000;
+    defaultTime = 3000;
+    //defaultTime = 15000;
     
     [self resetClock];
     
